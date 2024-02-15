@@ -1,0 +1,18 @@
+[submodule "openscq30"]
+	path = packages/openscq30
+	url = ssh://aur@aur.archlinux.org/openscq30.git
+[submodule "xfwm4-windowcenter"]
+	path = packages/xfwm4-windowcenter
+	url = ssh://aur@aur.archlinux.org/xfwm4-windowcenter.git
+[submodule "webcord-git"]
+	path = packages/webcord-git
+	url = ssh://aur@aur.archlinux.org/webcord-git.git
+[submodule "rhvoice-voice-cezary"]
+	path = packages/rhvoice-voice-cezary
+	url = ssh://aur@aur.archlinux.org/rhvoice-voice-cezary.git
+[submodule "gecko-arkenfox-autoconfig"]
+	path = packages/gecko-arkenfox-autoconfig
+	url = ssh://aur@aur.archlinux.org/gecko-arkenfox-autoconfig.git
+[submodule "manaplus-sdl2"]
+	path = packages/manaplus-sdl2
+	url = ssh://aur@aur.archlinux.org/pkgbase.git
