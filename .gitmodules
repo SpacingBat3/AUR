@@ -16,3 +16,6 @@
 [submodule "manaplus-sdl2"]
 	path = packages/manaplus-sdl2
 	url = ssh://aur@aur.archlinux.org/pkgbase.git
+[submodule "manaverse-git"]
+	path = packages/manaverse-git
+	url = ssh://aur@aur.archlinux.org/manaverse-git.git
