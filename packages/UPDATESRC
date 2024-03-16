@@ -2,7 +2,8 @@
 #
 # <project-name>            <type>  <source>                                    <tag-prefix>
 gecko-arkenfox-autoconfig   github  arkenfox/user.js
+hunt                        github  LyonSyonII/hunt-rs
+manaplus-sdl2               git     https://gitlab.com/manaplus/manaplus.git/   v
 openscq30                   github  Oppzippy/OpenSCQ30
 rhvoice-voice-cezary        github  RHVoice/cezary-pol
 xfwm4-windowcenter          git     https://gitlab.xfce.org/xfce/xfwm4.git/     xfwm4-
-manaplus-sdl2               git     https://gitlab.com/manaplus/manaplus.git/   v
