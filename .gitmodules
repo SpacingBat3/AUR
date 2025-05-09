@@ -22,3 +22,6 @@
 [submodule "hunt"]
 	path = packages/hunt
 	url = ssh://aur@aur.archlinux.org/hunt.git
+[submodule "packages/manaplus"]
+	path = packages/manaplus
+	url = ssh://aur@aur.archlinux.org/manaplus.git
