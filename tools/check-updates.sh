@@ -71,8 +71,10 @@ handle_line() {
 	);
 	version_new="$(fetch_version $2 $3 $4)"
 	if [ -n "$version_new" ] && [ "$version" != "$version_new" ]; then
-		echo "$1: Update from $version to $version_new...";
-		sed -i.old "s/$VSEL$version$/pkgver=$version_new/g" "$pkgbuild";
+		echo "$1: Update from $version-N to $version_new-1...";
+		sed -i.old \
+			"s/$VSEL$version$/pkgver=$version_new/;s/^pkgrel=[0-9.]*/pkgrel=1/" \
+			"$pkgbuild";
 		echo "$1: Updating checksums for the new sources...";
 		updpkgsums "$pkgbuild";
 		echo "$1: Updating .SRCINFO from the new PKGBUILD...";
