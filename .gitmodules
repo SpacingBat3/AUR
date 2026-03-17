@@ -22,6 +22,21 @@
 [submodule "hunt"]
 	path = packages/hunt
 	url = ssh://aur@aur.archlinux.org/hunt.git
-[submodule "packages/manaplus"]
+[submodule "manaplus"]
 	path = packages/manaplus
 	url = ssh://aur@aur.archlinux.org/manaplus.git
+[submodule "ns"]
+	path = packages/ns
+	url = ssh://aur@aur.archlinux.org/ns.git
+[submodule "ns3"]
+	path = packages/ns3
+	url = ssh://aur@aur.archlinux.org/ns3.git
+[submodule "xgraph"]
+	path = packages/xgraph
+	url = ssh://aur@aur.archlinux.org/xgraph.git
+[submodule "nam"]
+	path = packages/nam
+	url = ssh://aur@aur.archlinux.org/nam.git
+[submodule "netanim"]
+	path = packages/netanim
+	url = ssh://aur@aur.archlinux.org/netanim.git
