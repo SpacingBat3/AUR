@@ -40,3 +40,6 @@
 [submodule "netanim"]
 	path = packages/netanim
 	url = ssh://aur@aur.archlinux.org/netanim.git
+[submodule "lmms-sdl2"]
+	path = packages/lmms-sdl2
+	url = ssh://aur@aur.archlinux.org/lmms-sdl2.git
